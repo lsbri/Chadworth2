@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using LeagueSharp;
 using LeagueSharp.Common;
@@ -149,14 +149,14 @@ namespace KurisuBlitz
                 }
             }
 
-            if (_r.IsReady())
+            if (_e.IsReady())
             {
-                foreach (var rtarget in ObjectManager.Get<Obj_AI_Hero>().Where(hero => hero.IsValidTarget(_r.Range)))
+                foreach (var rtarget in ObjectManager.Get<Obj_AI_Hero>().Where(hero => hero.IsValidTarget(_e.Range)))
                 {
-                    if (rtarget.IsValidTarget(_r.Range) && _menu.Item("usecombor").GetValue<bool>())
+                    if (rtarget.IsValidTarget(_e.Range) && _menu.Item("usecombor").GetValue<bool>())
                     {
                         if (!_e.IsReady() && rtarget.HasBuffOfType(BuffType.Knockup))
-                            _r.Cast();
+                            _e.Cast();
                     }
                 }
             }
@@ -224,13 +224,13 @@ namespace KurisuBlitz
                 var etarget = TargetSelector.GetTargetNoCollision(_q);
                 if (etarget.IsValidTarget(_e.Range))
                 {
-                    var poutput = _q.GetPrediction(etarget);
-                    if (poutput.Hitchance >= (HitChance) _menu.Item("hitchanceq").GetValue<Slider>().Value + 2)
+                    var poutput = _e.GetPrediction(etarget);
+                    if (poutput.Hitchance >= (HitChance) _menu.Item("hitchance").GetValue<Slider>().Value + 2)
                     {
                         if (etarget.Distance(Me.ServerPosition) > _menu.Item("dnd").GetValue<Slider>().Value)
                         {
                             if (_menu.Item("usecombo" + etarget.ChampionName).GetValue<StringList>().SelectedIndex != 0) 
-                                _q.Cast(poutput.CastPosition);
+                                _e.Cast(poutput.CastPosition);
                         }
                     }
                 }
