@@ -1,0 +1,15 @@
+c:\users\intentions\documents\visual studio 2013\Projects\Chadworth2\Chadworth2\bin\Debug\Chadworth2.exe.config
+c:\users\intentions\documents\visual studio 2013\Projects\Chadworth2\Chadworth2\bin\Debug\Chadworth2.exe
+c:\users\intentions\documents\visual studio 2013\Projects\Chadworth2\Chadworth2\bin\Debug\Chadworth2.pdb
+c:\users\intentions\documents\visual studio 2013\Projects\Chadworth2\Chadworth2\bin\Debug\LeagueSharp.Common.dll
+c:\users\intentions\documents\visual studio 2013\Projects\Chadworth2\Chadworth2\bin\Debug\LeagueSharp.dll
+c:\users\intentions\documents\visual studio 2013\Projects\Chadworth2\Chadworth2\bin\Debug\LeagueSharp.SDK.dll
+c:\users\intentions\documents\visual studio 2013\Projects\Chadworth2\Chadworth2\bin\Debug\SharpDX.dll
+c:\users\intentions\documents\visual studio 2013\Projects\Chadworth2\Chadworth2\bin\Debug\SharpDX.Direct3D9.dll
+c:\users\intentions\documents\visual studio 2013\Projects\Chadworth2\Chadworth2\bin\Debug\clipper_library.dll
+c:\users\intentions\documents\visual studio 2013\Projects\Chadworth2\Chadworth2\bin\Debug\LeagueSharp.Sandbox.dll
+c:\users\intentions\documents\visual studio 2013\Projects\Chadworth2\Chadworth2\bin\Debug\Newtonsoft.Json.dll
+c:\users\intentions\documents\visual studio 2013\Projects\Chadworth2\Chadworth2\bin\Debug\LeagueSharp.xml
+c:\users\intentions\documents\visual studio 2013\Projects\Chadworth2\Chadworth2\obj\Debug\Chadworth2.csprojResolveAssemblyReference.cache
+c:\users\intentions\documents\visual studio 2013\Projects\Chadworth2\Chadworth2\obj\Debug\Chadworth2.exe
+c:\users\intentions\documents\visual studio 2013\Projects\Chadworth2\Chadworth2\obj\Debug\Chadworth2.pdb
